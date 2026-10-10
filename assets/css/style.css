@@ -122,3 +122,5 @@ footer .fnav a:hover{color:#fff}
   .stats{padding:40px 28px}
   .nav-links{gap:16px;font-size:13px}
 }
+
+.photo img{border-radius:14px;display:block;width:100%;height:auto}

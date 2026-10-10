@@ -151,3 +151,5 @@ footer{background:var(--night);color:#aea8d8;padding:44px 0;font-size:14px}
   .stat-band{padding:40px 28px}
   .news-post{padding:26px 22px}
 }
+
+.photo img{border-radius:14px;display:block;width:100%;height:auto}
