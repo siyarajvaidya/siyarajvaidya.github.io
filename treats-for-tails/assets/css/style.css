@@ -15,6 +15,8 @@ img{max-width:100%}
 header.site{padding:16px 0;background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand a{text-decoration:none}
+.brand-sub{display:block}
 .paw{width:46px;height:46px;border-radius:50%;background:linear-gradient(140deg,var(--tang),var(--pink));color:#fff;
   display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 6px 16px rgba(217,127,54,.25);flex:none}
 .brand b{font-family:'Fraunces',serif;font-size:22px;color:var(--cocoa);display:block;line-height:1.1;font-weight:600}
