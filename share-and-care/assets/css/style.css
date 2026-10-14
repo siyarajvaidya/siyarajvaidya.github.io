@@ -35,14 +35,14 @@ header.site{background:var(--night);border-bottom:1px solid var(--night-3);paddi
 
 /* ---------- Heroes ---------- */
 .hero{background:radial-gradient(1200px 620px at 70% -10%,var(--night-3),var(--night) 62%);
-  color:#f2eefc;padding:110px 0 100px;position:relative;overflow:hidden;text-align:center}
+  color:#f2eefc;padding:54px 0 48px;position:relative;overflow:hidden;text-align:center}
 .page-hero{background:radial-gradient(900px 420px at 70% -10%,var(--night-3),var(--night) 65%);
   color:#f2eefc;padding:72px 0 64px;position:relative;overflow:hidden;text-align:center}
 .starfield{position:absolute;inset:0;pointer-events:none}
 .starfield i{position:absolute;color:#efe9ff;opacity:.7;font-style:normal;animation:twinkle 3.5s infinite ease-in-out}
 @keyframes twinkle{0%,100%{opacity:.25}50%{opacity:.9}}
-.big-moon{font-size:96px;color:var(--moon);text-shadow:0 0 70px rgba(185,168,232,.55);position:relative;line-height:1}
-.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(46px,7vw,76px);font-weight:600;
+.big-moon{font-size:54px;color:var(--moon);text-shadow:0 0 70px rgba(185,168,232,.55);position:relative;line-height:1}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(38px,5.5vw,58px);font-weight:600;
   line-height:1.08;position:relative;margin-top:10px}
 .hero h1 em{font-style:italic;color:var(--lav)}
 .page-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,5vw,54px);font-weight:600;
@@ -143,7 +143,7 @@ footer{background:var(--night);color:#aea8d8;padding:44px 0;font-size:14px}
 @media(max-width:760px){
   .nav{flex-direction:column;gap:14px}
   .nav-links{flex-wrap:wrap;justify-content:center;gap:6px 18px}
-  .hero{padding:72px 0 64px}
+  .hero{padding:42px 0 38px}
   .page-hero{padding:56px 0 48px}
   .split{grid-template-columns:1fr}
   section{padding:52px 0}
