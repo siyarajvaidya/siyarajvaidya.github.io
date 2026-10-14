@@ -116,3 +116,8 @@ footer{background:var(--cocoa);color:#e8d5c2;padding:44px 0;font-size:14px}
   .contact-card{padding:36px 24px}
   .kr-badge{font-size:11px}
 }
+
+.carousel{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;border-radius:20px;box-shadow:0 14px 34px rgba(93,64,55,.14);scrollbar-width:none}
+.carousel::-webkit-scrollbar{display:none}
+.carousel .photo{flex:0 0 100%;scroll-snap-align:start;margin:0}
+.carousel .photo img{width:100%;height:100%;object-fit:cover;display:block}
